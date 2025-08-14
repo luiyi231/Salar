@@ -17,12 +17,12 @@ public class SplashActivity extends AppCompatActivity {
 
         findViewById(R.id.button).setOnClickListener(v -> {
             startActivity(new Intent(SplashActivity.this, MainActivity.class));
-            finish();
+
         });
 
         findViewById(R.id.textView7).setOnClickListener(v -> {
             startActivity(new Intent(SplashActivity.this, Registro.class));
-            finish();
+
         });
     }
 }

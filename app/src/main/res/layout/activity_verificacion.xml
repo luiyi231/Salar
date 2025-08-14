@@ -22,8 +22,8 @@
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="312dp"
-        android:layout_height="383dp"
+        android:layout_width="316dp"
+        android:layout_height="329dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,14 +38,9 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="50px"
-            android:text="Inicio de Sesión"
+            android:text="Ingrese su correro"
             android:textSize="80px"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/editTextText3"
@@ -56,21 +51,7 @@
             android:background="@drawable/item_register"
             android:backgroundTint="#4C98BBE4"
             android:ems="10"
-            android:hint="Nombre de Usuario"
-            android:inputType="text"
-            android:padding="10dp"
-            android:textColor="@color/gris" />
-
-        <EditText
-            android:id="@+id/editTextText4"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_margin="30px"
-            android:height="50dp"
-            android:background="@drawable/item_register"
-            android:backgroundTint="#5698BBE4"
-            android:ems="10"
-            android:hint="Contraseña"
+            android:hint="Correo"
             android:inputType="text"
             android:padding="10dp"
             android:textColor="@color/gris" />
@@ -81,7 +62,6 @@
             android:layout_height="wrap_content"
             android:layout_margin="40px"
             android:gravity="end"
-            android:text="¿Olvidaste tu contraseña?"
             android:textColor="@color/gris" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -89,7 +69,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@drawable/item_ingresar"
-            android:text="INGRESAR" />
+            android:text="ENVIAR"
+            android:layout_marginBottom="10dp"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_ingresar"
+            android:text="Cambiar Contraseña" />
 
     </LinearLayout>
 
